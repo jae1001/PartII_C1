@@ -3,7 +3,7 @@
 <ol>
 <li>
 
-[Buffon's Needle: buffons_needle.ipytb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/buffons_needle.ipynb)
+[Buffon's Needle: buffons_needle.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/buffons_needle.ipynb)
 
 **Description**
 
