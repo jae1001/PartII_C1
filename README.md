@@ -28,7 +28,7 @@ by James Elliott
 
 <li>
 
-[Democritus: democritus.ipytb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/democritus.ipynb)
+[Democritus: democritus.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/democritus.ipynb)
 
 **Description**
 
@@ -53,7 +53,7 @@ Python code by Jacob Martin (University of Cambridge) adapted from original FORT
 
 <li>
 
-[Potts model: potts.ipynb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/potts.ipynb)
+[Potts model: potts.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/potts.ipynb)
 
 **Description**
 
@@ -68,7 +68,7 @@ are the grain microstructure after each Monte Carlo step, and the number of uniq
 as a function of steps. Advisable to keep the array sizes below 100 to avoid excessive compute time.
 Typically requires around 1000 MCS to achieve convergence.
 
-4/3/2020 - - added variants: [Ising model: potts_zener.ipynb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/potts_zener.ipynb) which implements the substitution of inert sites on the lattice (precipitates) to simulate the effects of Zener pinning discussed in lecture 5. The fraction of inert sites on lattice (f) can be controlled by additional user-defined parameter f_defects. For *low* fractions of pinning sites (< 5%) the Zener-Smith formula predicts that stagnation grain size should vary with reciprocal of f. NOTE: there is a known issue with the way the defects are added, which means the fraction of inert sites may be lower than f_defects, but this effect should be small for low f. ALSO: for for f = 0, the code *should* reproduce same scaling as original Potts code, BUT this has not been thoroughly tested, so best to use the original code for testing the scaling of grain size with MCS (time).
+4/3/2020 - - added variants: [Ising model: potts_zener.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/potts_zener.ipynb) which implements the substitution of inert sites on the lattice (precipitates) to simulate the effects of Zener pinning discussed in lecture 5. The fraction of inert sites on lattice (f) can be controlled by additional user-defined parameter f_defects. For *low* fractions of pinning sites (< 5%) the Zener-Smith formula predicts that stagnation grain size should vary with reciprocal of f. NOTE: there is a known issue with the way the defects are added, which means the fraction of inert sites may be lower than f_defects, but this effect should be small for low f. ALSO: for for f = 0, the code *should* reproduce same scaling as original Potts code, BUT this has not been thoroughly tested, so best to use the original code for testing the scaling of grain size with MCS (time).
 
 **Credits**
 
@@ -77,7 +77,7 @@ Python code by Fabian A. (Stack Exchange) and modified by James Elliott
 
 <li>
 
-[Ising model: ising.ipynb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/ising.ipynb)
+[Ising model: ising.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/ising.ipynb)
 
 **Description**
 
@@ -88,7 +88,7 @@ Implementation of Monte Carlo (MC) model for Ising model for a ferromagnet (spec
 User editable settings are size of array (N,M) and total number of Monte Carlo steps (MCS). Outputs
 are the spin microstructure after each Monte Carlo step, and the net magnetisation per spin (i.e. the difference between number of spin up minus spin down states) as a function of steps. Advisable to keep the array sizes below 100 to avoid excessive compute time. Try experimenting with behaviour of model above and below the critical (Curie) temperature for 2D square lattice (approximately 2.27 in dimensionless units).
 
-2/3/2020 - added two variants: [Ising model: ising_highT.ipynb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/ising_highT.ipynb) and [Ising model: ising_lowT.ipynb](https://partiic1-jae1001.notebooks.azure.com/j/notebooks/ising_lowT.ipynb) which simulate above and below the Curie temperature, respectively, so these can be shown in lectures without rerunning the code.
+2/3/2020 - added two variants: [Ising model: ising_highT.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/ising_highT.ipynb) and [Ising model: ising_lowT.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/ising_lowT.ipynb) which simulate above and below the Curie temperature, respectively, so these can be shown in lectures without rerunning the code.
 
 **Credits**
 
