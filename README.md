@@ -1,6 +1,32 @@
 ## iPython Notebooks for Part II Materials Science C1: Introduction to Materials Modelling
 
 <ol>
+
+<li>
+
+[Non-linear regression analysis: regression.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/regression.ipynb)
+
+**Description**
+
+Illustrates the use of non-linear regression using scipy.curve_fit routines, and the calculation of
+fit parameters along with their standard errors. Also calculates (manually) the coefficient of
+variation (R^2) and the reduced chi-squared statistic. The latter is a much better measure of the
+goodness-of-fit, due to the sensitivity to overfitting of an inappropriately complex model (too
+many fitting parameters) or insufficient data.
+
+**Usage**
+
+User can select data generation and fitting function from those given (or define their own). The
+level of noise is fixed on y-axis only.
+
+**Credits**
+
+Original example taken from Scipy manual pages, with some additions and modifications by James Elliott
+</li>
+  
+  
+  
+  
 <li>
 
 [Buffon's Needle: buffons_needle.ipynb](https://colab.research.google.com/github/jae1001/PartII_C1/blob/main/buffons_needle.ipynb)
